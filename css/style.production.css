@@ -146,6 +146,8 @@ table {
 
 .about-me__list {
   list-style-type: none;
+  padding-inline-start: 0;
+
 }
 
 /* profile, index page */
