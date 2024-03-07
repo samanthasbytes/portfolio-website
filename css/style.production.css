@@ -23,6 +23,11 @@ body {
   background-color: #fff;
 }
 
+.page-wrapper {
+  padding: 150px 20px;
+  position: relative;
+}
+
 h1,
 h2 {
   font-weight: 700;
@@ -42,12 +47,6 @@ h2 {
 
 img {
   height: auto;
-}
-
-/* page wrapper */
-.page-wrapper {
-  padding: 150px 20px;
-  position: relative;
 }
 
 /* header */
@@ -138,11 +137,15 @@ button:focus,
   opacity: 0.8;
 }
 
-/* table, about page */
+/* about page */
 
 table {
   margin: auto;
   padding: 50px;
+}
+
+.about-me__list {
+  list-style-type: none;
 }
 
 /* profile, index page */
