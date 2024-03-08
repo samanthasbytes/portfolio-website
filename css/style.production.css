@@ -109,11 +109,13 @@ a:focus {
 
 /* buttons, form page and about page */
 
-button,
+.submit_button,
 .button {
   border: none;
   display: inline-block;
   font-family: inherit;
+  width: 70px;
+  height: auto;
   background-color: #5162ee;
   color: #fff;
   text-decoration: none;
@@ -126,8 +128,8 @@ button,
   transition: opacity 0.4s;
 }
 
-button:hover,
-button:focus,
+.submit_button:hover,
+.submit_button:focus,
 .button:hover,
 .button:focus {
   cursor: pointer;
