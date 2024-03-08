@@ -114,7 +114,6 @@ a:focus {
   border: none;
   display: inline-block;
   font-family: inherit;
-  width: 70px;
   height: auto;
   background-color: #5162ee;
   color: #fff;
@@ -126,6 +125,10 @@ a:focus {
   -o-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
   transition: opacity 0.4s;
+}
+
+.submit_button {
+  width: 70px;
 }
 
 .submit_button:hover,
