@@ -122,11 +122,10 @@ button,
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: opacity 0.4s, font-size 0.4s;
-  -o-transition: opacity 0.4s, font-size 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
   -moz-transition: opacity 0.4s;
-  font-size: 0.4s;
-  transition: opacity 0.4s, font-size 0.4s;
+  transition: opacity 0.4s;
 }
 
 button:hover,
