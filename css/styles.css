@@ -8,12 +8,13 @@
   --font-large: 22px;
 }
 
-* {
+html,
+body {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 400;
   font-size: var(--font-small);
   line-height: 1.6;
@@ -148,7 +149,7 @@ table {
 
 /* social icons, footer */
 
-.page-footer img[src*="icon"] {
+.page-footer img[src*='icon'] {
   cursor: pointer;
   width: 30px;
   height: 30px;
