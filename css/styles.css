@@ -8,8 +8,7 @@
   --font-large: 22px;
 }
 
-html,
-body {
+* {
   box-sizing: border-box;
 }
 
